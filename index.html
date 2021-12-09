@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="questions.js"></script>
+    <title>QuizApp</title>
+  </head>
+  <body>
+    <div class="AppContainer">
+      <div class="Question">Hier kommt eine Frage rein asdfasd fasdfasd fasdf asdf asdf asf asdfa s</div>
+      <div class="AnswerButtonsContainer">
+        <button class="AnswerButton" id="1" onClick="checkSolution(this.id)">Antwort 1</button>
+        <button class="AnswerButton" id="2" onClick="checkSolution(this.id)">Antwort 2</button>
+        <button class="AnswerButton" id="3" onClick="checkSolution(this.id)">Antwort 3</button>
+        <button class="AnswerButton" id="4" onClick="checkSolution(this.id)">Antwort 4</button>
+      </div>
+      <div class="OutputContainer">
+        <div class="rightAnswers">richtig beantwortete Fragen: 0</div>
+        <div class="wrongAnswers">falsch beantwortete Fragen: 0</div>
+      </div>
+      <button id="buttonNext" onClick="newQuestion()">Weiter</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
