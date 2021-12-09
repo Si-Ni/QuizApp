@@ -1,5 +1,5 @@
 //keine gute Lösung, Daten sollten nicht von Nutzer eingesehen werden
-//Server würde Daten zur Verfügung stellen oder obfuscation
+//Server würde Antwort verschlüsselt zur Verfügung stellen oder obfuscation
 
 let Questions = [
   {
